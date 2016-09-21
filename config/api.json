@@ -1,0 +1,16 @@
+{
+  "bleacher": {
+    "checkout": {
+      "cart": {
+        "add": {
+          "uenc": {
+            "${urlHash}": {
+              "schema": "http",
+              "method": ["POST"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
