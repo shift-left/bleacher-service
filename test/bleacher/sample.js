@@ -19,7 +19,7 @@ describe('Sample test suite', function() {
         proxy: Config.proxy
       });
       var formKey = r.data.headers['set-cookie'][0].split(';')[0].split('=')[1];
-      console.log(formKey);
+      // console.log(formKey);
       expect(r.data.statusCode).to.equal(200);
 
       // add to cart
